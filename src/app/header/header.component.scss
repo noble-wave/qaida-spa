@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #EC9600;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.navbar {
+  width: 95%;
+  margin: auto;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-manu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
