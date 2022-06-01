@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -23,6 +24,7 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    FlexLayoutModule,
 
   ],
   providers: [],

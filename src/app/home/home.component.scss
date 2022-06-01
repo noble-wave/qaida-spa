@@ -1,5 +1,40 @@
 .main-container {
-  background-color: #f3f0cf;
-  height: 100%;
+  margin-top: 86px;
+}
+
+.image-holder {
+  // height: 100vh;
   width: 100%;
+  height: auto;
+  background-image: url("/assets/imgs/8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background-image: url("/assets/imgs/8.jpg");
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   background-position: center center;
+  // }
+}
+
+
+.image-holder-2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/imgs/8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
