@@ -8,36 +8,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  slideIndex = 1;
+  slideIndex = 0;
+  imgPath = "/assets/Images/";
 
 
   constructor() { }
 
   ngOnInit(): void {
-    this.showSlides(this.slideIndex);
+    // this.showSlides();
   }
 
-  plusSlides(n: number) {
-    this.showSlides(this.slideIndex += n);
-  }
 
-  currentSlide(n: number) {
-    this.showSlides(this.slideIndex = n);
-  }
+  // showSlides() {
+  //   let i;
+  //   let slides: any = document.getElementsByClassName("mySlides");
+  //   let dots: any = document.getElementsByClassName("dot");
+  //   for (i = 0; i < slides.length; i++) {
+  //     slides[i].style.display = "none";
+  //   }
 
-  showSlides(n: number) {
-    let i;
-    let slides: any = document.getElementsByClassName("mySlides");
-    let dots: any = document.getElementsByClassName("dot");
-    if (n > slides.length) { this.slideIndex = 1 }
-    if (n < 1) { this.slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[this.slideIndex - 1].style.display = "block";
-    dots[this.slideIndex - 1].className += " active";
-  }
+  //   this.slideIndex++;                                                 //// Automatic Slideshow
+  //   if (this.slideIndex > slides.length) { this.slideIndex = 1 }
+  //   for (i = 0; i < dots.length; i++) {
+  //     dots[i].className = dots[i].className.replace(" active", "");
+  //   }
+  //   if (slides[this.slideIndex - 1]) {
+  //     slides[this.slideIndex - 1].style.display = "block";
+  //     dots[this.slideIndex - 1].className += " active";
+  //   }
+
+  //   setTimeout(() => { this.showSlides(); }, 2000); // Change image every 6 seconds
+
+  // }
 }
