@@ -1,89 +1,3 @@
-// // .mySlides {
-// //   display: none;
-// // }
-
-// // img {
-// //   vertical-align: middle;
-// // }
-
-
-// // /* Slideshow container */
-// // .slideshow-container {
-// //   // max-width: 1000px;
-// //   position: absolute;
-// //   // margin: auto;
-// //   margin-top: 86px;
-// // }
-
-// // .slideshow-container img {
-
-// //   width: 1136.98px;
-// //   height: 616.394px;
-// // }
-
-
-
-// /* Caption text */
-// .text {
-//   color: #f2f2f2;
-//   font-size: 15px;
-//   padding: 8px 12px;
-//   position: absolute;
-//   bottom: 8px;
-//   width: 100%;
-//   text-align: center;
-// }
-
-// /* Number text (1/3 etc) */
-// .numbertext {
-//   color: #f2f2f2;
-//   font-size: 12px;
-//   padding: 8px 12px;
-//   position: absolute;
-//   top: 0;
-// }
-
-// /* The dots/bullets/indicators */
-// .dot {
-//   height: 15px;
-//   width: 15px;
-//   margin: 0 2px;
-//   background-color: #bbb;
-//   border-radius: 50%;
-//   display: inline-block;
-//   transition: background-color 0.6s ease;
-// }
-
-// .active {
-//   background-color: #717171;
-// }
-
-// /* Fading animation */
-// .fade {
-//   animation-name: fade;
-//   animation-duration: 1.5s;
-// }
-
-// @keyframes fade {
-//   from {
-//     opacity: .4
-//   }
-
-//   to {
-//     opacity: 1
-//   }
-// }
-
-// /* On smaller screens, decrease text size */
-// @media only screen and (max-width: 300px) {
-//   .text {
-//     font-size: 11px
-//   }
-// }
-.container {
-  margin-top: 86px;
-}
-
 .cb-slideshow,
 .cb-slideshow:after {
   position: fixed;
@@ -127,7 +41,6 @@
   width: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
   -webkit-animation: titleAnimation 36s linear infinite 0s;
   -moz-animation: titleAnimation 36s linear infinite 0s;
   -o-animation: titleAnimation 36s linear infinite 0s;
@@ -140,6 +53,7 @@
   font-size: 240px;
   padding: 0;
   line-height: 200px;
+  color: rgba(169, 3, 41, 0.8);
 }
 
 .cb-slideshow li:nth-child(1) span {
@@ -240,15 +154,18 @@
 
   8% {
     opacity: 1;
+    -webkit-transform: scale(1.05);
     -webkit-animation-timing-function: ease-out;
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -webkit-transform: scale(1.1);
   }
 
   25% {
-    opacity: 0
+    opacity: 0;
+    -webkit-transform: scale(1.1);
   }
 
   100% {
@@ -264,15 +181,18 @@
 
   8% {
     opacity: 1;
+    -moz-transform: scale(1.05);
     -moz-animation-timing-function: ease-out;
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -moz-transform: scale(1.1);
   }
 
   25% {
-    opacity: 0
+    opacity: 0;
+    -moz-transform: scale(1.1);
   }
 
   100% {
@@ -288,15 +208,18 @@
 
   8% {
     opacity: 1;
+    -o-transform: scale(1.05);
     -o-animation-timing-function: ease-out;
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -o-transform: scale(1.1);
   }
 
   25% {
-    opacity: 0
+    opacity: 0;
+    -o-transform: scale(1.1);
   }
 
   100% {
@@ -312,15 +235,18 @@
 
   8% {
     opacity: 1;
+    -ms-transform: scale(1.05);
     -ms-animation-timing-function: ease-out;
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -ms-transform: scale(1.1);
   }
 
   25% {
-    opacity: 0
+    opacity: 0;
+    -ms-transform: scale(1.1);
   }
 
   100% {
@@ -336,15 +262,18 @@
 
   8% {
     opacity: 1;
+    transform: scale(1.05);
     animation-timing-function: ease-out;
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    transform: scale(1.1);
   }
 
   25% {
-    opacity: 0
+    opacity: 0;
+    transform: scale(1.1);
   }
 
   100% {
@@ -355,19 +284,27 @@
 /* Animation for the title */
 @-webkit-keyframes titleAnimation {
   0% {
-    opacity: 0
+    opacity: 0;
+    -webkit-transform: translateY(200px);
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
+    -webkit-transform: translateY(0px);
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -webkit-transform: scale(1);
   }
 
   19% {
     opacity: 0
+  }
+
+  25% {
+    opacity: 0;
+    -webkit-transform: scale(10);
   }
 
   100% {
@@ -377,19 +314,27 @@
 
 @-moz-keyframes titleAnimation {
   0% {
-    opacity: 0
+    opacity: 0;
+    -moz-transform: translateY(200px);
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
+    -moz-transform: translateY(0px);
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -moz-transform: scale(1);
   }
 
   19% {
     opacity: 0
+  }
+
+  25% {
+    opacity: 0;
+    -moz-transform: scale(10);
   }
 
   100% {
@@ -399,19 +344,27 @@
 
 @-o-keyframes titleAnimation {
   0% {
-    opacity: 0
+    opacity: 0;
+    -o-transform: translateY(200px);
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
+    -o-transform: translateY(0px);
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -o-transform: scale(1);
   }
 
   19% {
     opacity: 0
+  }
+
+  25% {
+    opacity: 0;
+    -o-transform: scale(10);
   }
 
   100% {
@@ -421,19 +374,27 @@
 
 @-ms-keyframes titleAnimation {
   0% {
-    opacity: 0
+    opacity: 0;
+    -ms-transform: translateY(200px);
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
+    -ms-transform: translateY(0px);
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    -ms-transform: scale(1);
   }
 
   19% {
     opacity: 0
+  }
+
+  25% {
+    opacity: 0;
+    -webkit-transform: scale(10);
   }
 
   100% {
@@ -443,19 +404,27 @@
 
 @keyframes titleAnimation {
   0% {
-    opacity: 0
+    opacity: 0;
+    transform: translateY(200px);
   }
 
   8% {
-    opacity: 1
+    opacity: 1;
+    transform: translateY(0px);
   }
 
   17% {
-    opacity: 1
+    opacity: 1;
+    transform: scale(1);
   }
 
   19% {
     opacity: 0
+  }
+
+  25% {
+    opacity: 0;
+    transform: scale(10);
   }
 
   100% {
@@ -470,12 +439,12 @@
 
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
-    font-size: 140px
+    font-size: 100px
   }
 }
 
 @media screen and (max-width: 600px) {
   .cb-slideshow li div h3 {
-    font-size: 80px
+    font-size: 50px
   }
 }
