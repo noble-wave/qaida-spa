@@ -25,7 +25,7 @@
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  -webkit-backface-visibility: hidden;
+  // -webkit-backface-visibility: hidden;
   -webkit-animation: imageAnimation 36s linear infinite 0s;
   -moz-animation: imageAnimation 36s linear infinite 0s;
   -o-animation: imageAnimation 36s linear infinite 0s;
@@ -57,7 +57,12 @@
 }
 
 .cb-slideshow li:nth-child(1) span {
-  background-image: url(/assets/Images/1.jpg)
+  background-image: url(/assets/Images/1.jpg);
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .cb-slideshow li:nth-child(2) span {
