@@ -11,8 +11,6 @@ import { HeadComponent } from './head/head.component';
 import { SlideSectionComponent } from './slide-section/slide-section.component';
 
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

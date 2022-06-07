@@ -29,7 +29,10 @@ p.codrops-demos a {
   margin: 2px 15px;
   font-weight: 500;
   text-decoration: none;
-
   color: #fff;
   margin-top: 10px;
+}
+
+p.codrops-demos a:hover {
+  color: var(--slideTextColor);
 }
