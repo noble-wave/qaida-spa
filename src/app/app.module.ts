@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeadComponent } from './head/head.component';
 import { SlideSectionComponent } from './slide-section/slide-section.component';
+import { ContentSectionComponent } from './content-section/content-section.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -16,7 +18,8 @@ import { SlideSectionComponent } from './slide-section/slide-section.component';
     AppComponent,
     HomeComponent,
     HeadComponent,
-    SlideSectionComponent
+    SlideSectionComponent,
+    ContentSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,7 @@ import { SlideSectionComponent } from './slide-section/slide-section.component';
     MatButtonModule,
     MatIconModule,
     FlexLayoutModule,
+    MatCardModule,
 
   ],
   providers: [],

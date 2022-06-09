@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--backgroundColor);
+}
+
+.app-into div {
+    h1 {
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
+
+#websitelink {
+    font-family: var(--slideFont);
+    padding: 13px 30px 11px;
+    color: white;
+    background-color: var(--slideTextColor);
+    border: 1px solid var(--slideTextColor);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
