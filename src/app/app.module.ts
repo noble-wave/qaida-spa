@@ -11,6 +11,7 @@ import { HeadComponent } from './head/head.component';
 import { SlideSectionComponent } from './slide-section/slide-section.component';
 import { ContentSectionComponent } from './content-section/content-section.component';
 import { MatCardModule } from '@angular/material/card';
+import { FeatureSectionComponent } from './feature-section/feature-section.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     HeadComponent,
     SlideSectionComponent,
-    ContentSectionComponent
+    ContentSectionComponent,
+    FeatureSectionComponent
   ],
   imports: [
     BrowserModule,
