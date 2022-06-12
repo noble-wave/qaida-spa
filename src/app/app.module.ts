@@ -12,6 +12,7 @@ import { SlideSectionComponent } from './slide-section/slide-section.component';
 import { ContentSectionComponent } from './content-section/content-section.component';
 import { MatCardModule } from '@angular/material/card';
 import { FeatureSectionComponent } from './feature-section/feature-section.component';
+import { DescriptionSectionComponent } from './description-section/description-section.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FeatureSectionComponent } from './feature-section/feature-section.compo
     HeadComponent,
     SlideSectionComponent,
     ContentSectionComponent,
-    FeatureSectionComponent
+    FeatureSectionComponent,
+    DescriptionSectionComponent
   ],
   imports: [
     BrowserModule,
