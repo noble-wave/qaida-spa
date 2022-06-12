@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.container ul li {
+  list-style-type: none;
+}
+
 .cb-slideshow,
 .cb-slideshow:after {
   position: relative;
@@ -14,10 +18,10 @@
   max-height: 100vh;
 }
 
-.cb-slideshow:after {
-  content: '';
-  background: transparent url(/assets/Images/pattern.png) repeat top left;
-}
+// .cb-slideshow:after {
+//   content: '';
+//   background: transparent url(/assets/Images/pattern.png) repeat top left;
+// }
 
 .cb-slideshow li span {
   width: 100%;
@@ -31,7 +35,7 @@
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  -webkit-backface-visibility: hidden;
+  --webkit-backface-visibility: hidden;
   -webkit-animation: imageAnimation 36s linear infinite 0s;
   -moz-animation: imageAnimation 36s linear infinite 0s;
   -o-animation: imageAnimation 36s linear infinite 0s;

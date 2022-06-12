@@ -1,4 +1,13 @@
-.container h1 {
+.container {
+  background-image: url(/assets/Images/overPic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+
+.head h1 {
   font-size: 3rem;
   line-height: initial;
   color: var(--deepColor);
@@ -7,31 +16,33 @@
   font-weight: bold;
 }
 
+
 .content {
   display: flex;
   justify-content: space-around;
-
+  // background-image: url(/assets/Images/15.jpg);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
 }
 
-.gg-volume {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  color: var(--deepColor);
-  transform: scale(var(--ggs, 2));
-  width: 8px;
-  height: 8px;
-  border: 2px solid;
-  border-right: 0;
-  -webkit-perspective: 12px;
-  perspective: 12px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px
+.icons-box {
+  margin-right: 30%;
 }
 
-.icon {
-  width: 200px;
+.icons {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 60px 0px 80px 0px;
+}
+
+.icons mat-icon {
+  color: var(--deepColor);
+  font-size: 55px;
+  line-height: 0;
+}
+
+.icons p {
+  font-size: 1.30rem;
+  margin-left: 50px;
+  font-weight: 500;
 }
