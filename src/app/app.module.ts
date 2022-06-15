@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HeadComponent } from './head/head.component';
+import { HeadComponent } from './head-section/head.component';
 import { SlideSectionComponent } from './slide-section/slide-section.component';
 import { ContentSectionComponent } from './content-section/content-section.component';
 import { MatCardModule } from '@angular/material/card';
