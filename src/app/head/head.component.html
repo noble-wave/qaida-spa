@@ -1,14 +1,25 @@
-<header class="top-head">
+<header class="top-head" fxLayout="row" fxLayoutAlign="space-between center">
   <div>
-    <h1><img [src]="EtriviaLogo + 'icon.png'"></h1>
+    <span><img [src]="EtriviaLogo + 'icon.png'"></span>
   </div>
 
-  <div>
-    <p class="codrops-demos">
-      <a href="#">Lettes</a>
-      <a href="#">Features</a>
-      <a href="#">Our Team</a>
-      <a href="#">APP</a>
-    </p>
+  <div class="nav-links">
+    <ul class="codrops-demos" fxLayout="row">
+
+      <li>
+        <a href="#">Lettes</a>
+      </li>
+
+      <li>
+        <a href="#">Features</a>
+      </li>
+
+      <li>
+        <a href="#">Our Team</a>
+      </li>
+
+      <li>
+        <a href="#">APP</a>
+      </li>
+    </ul>
   </div>
-</header>

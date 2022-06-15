@@ -1,38 +1,30 @@
-p.codrops-demos {
-  display: block;
-  padding: 15px 0px;
-}
-
 .top-head {
   position: fixed;
-  background-color: rgb(26, 26, 60, 0.1);
+  background-color: var(--headBackgroundColor);
   width: 100%;
   z-index: 12;
 }
 
-
 header img {
   width: 100px;
-  margin-left: 15px;
-  margin-top: 10px;
+  margin: 15px 15px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-p.codrops-demos a {
+.codrops-demos a {
   display: inline-block;
   font-size: 20px;
-  margin: 2px 15px;
+  margin: 15px 15px;
   font-weight: 500;
   text-decoration: none;
   color: #fff;
   margin-top: 10px;
+  text-decoration: none;
 }
 
-p.codrops-demos a:hover {
+.codrops-demos li {
+  list-style-type: none;
+}
+
+.codrops-demos a:hover {
   color: var(--deepColor);
 }
