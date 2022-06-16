@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "app-main";
   position: relative;
 }
 
@@ -13,4 +13,10 @@ body {
   --primaryColor: #62ecc1;
   --deepColor: #222589;
   --headBackgroundColor: rgb(26, 26, 60, 0.1);
+}
+
+
+@font-face {
+  font-family: "app-main";
+  src: url(/assets/font/comic.ttf);
 }
