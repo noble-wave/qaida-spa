@@ -1,0 +1,35 @@
+.app-into {
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.app-into div div {
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#websitelink:hover {
+  background-color: var(--deepColor);
+  border: 1px solid var(--deepColor);
+}
+
+
+@media(max-width:550px) {
+  #websitelink {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:495px) {
+  #websitelink {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:460px) {
+  #websitelink {
+    margin-top: 10px;
+  }
+}

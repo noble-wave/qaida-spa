@@ -13,6 +13,7 @@ import { ContentSectionComponent } from './content-section/content-section.compo
 import { MatCardModule } from '@angular/material/card';
 import { FeatureSectionComponent } from './feature-section/feature-section.component';
 import { DescriptionSectionComponent } from './description-section/description-section.component';
+import { GoToWebsiteSectionComponent } from './go-to-website-section/go-to-website-section.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DescriptionSectionComponent } from './description-section/description-s
     SlideSectionComponent,
     ContentSectionComponent,
     FeatureSectionComponent,
-    DescriptionSectionComponent
+    DescriptionSectionComponent,
+    GoToWebsiteSectionComponent
   ],
   imports: [
     BrowserModule,

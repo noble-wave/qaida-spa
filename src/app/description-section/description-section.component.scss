@@ -1,5 +1,4 @@
 .container {
-  height: 100vh;
   background-color: var(--primaryColor);
 }
 
@@ -23,4 +22,10 @@
 .description-img img {
   width: 200px;
   height: 200px;
+}
+
+.description-img p {
+  word-break: break-all;
+  text-align: center;
+  ;
 }
