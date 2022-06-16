@@ -1,27 +1,14 @@
-// .container {
-//   background-color: var(--backgroundColor);
-// }
-
-
-.app-into div {
-  h1 {
-    padding: 40px 0px 25px 0px;
-    text-align: center;
-    font-weight: bold;
-  }
-
+.app-into {
+  padding: 25px 0px 15px 0px;
+  text-align: center;
+  font-weight: bold;
 }
 
-#websitelink {
-  font-family: var(--slideFont);
-  padding: 13px 30px 11px;
-  color: white;
-  background-color: var(--slideTextColor);
-  border: 1px solid var(--slideTextColor);
-  border-radius: 30px;
-  text-decoration: none;
+.app-into div h1 {
   font-weight: 500;
 }
+
+
 
 #websitelink:hover {
   background-color: var(--deepColor);
