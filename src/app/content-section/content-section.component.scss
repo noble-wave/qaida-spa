@@ -21,7 +21,7 @@
 
 .contant h1 {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.3rem;
   padding: 20px 0px 0px 0px;
   line-height: initial;
   color: var(--deepColor);
@@ -41,6 +41,24 @@
   line-height: initial;
 }
 
-.image-content img {
-  margin-top: 100px;
+
+
+
+@media(max-width:550px) {
+  .image-content img {
+    width: 400px;
+  }
+}
+
+@media(max-width:495px) {
+  .image-content img {
+    width: 400px;
+  }
+}
+
+@media(max-width:460px) {
+
+  .image-content img {
+    width: 400px;
+  }
 }
