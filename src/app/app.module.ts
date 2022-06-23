@@ -7,10 +7,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HeadComponent } from './head/head.component';
+import { HeadComponent } from './head-section/head.component';
 import { SlideSectionComponent } from './slide-section/slide-section.component';
 import { ContentSectionComponent } from './content-section/content-section.component';
 import { MatCardModule } from '@angular/material/card';
+import { FeatureSectionComponent } from './feature-section/feature-section.component';
+import { DescriptionSectionComponent } from './description-section/description-section.component';
+import { GoToWebsiteSectionComponent } from './go-to-website-section/go-to-website-section.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     HeadComponent,
     SlideSectionComponent,
-    ContentSectionComponent
+    ContentSectionComponent,
+    FeatureSectionComponent,
+    DescriptionSectionComponent,
+    GoToWebsiteSectionComponent
   ],
   imports: [
     BrowserModule,

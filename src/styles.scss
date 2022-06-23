@@ -1,13 +1,22 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "app-main";
+  position: relative;
 }
 
 :root {
-    --slideFont: 'BebasNeueRegular''Arial Narrow', Arial, sans-serif;
-    --slideTextColor: rgba(169, 3, 41, 0.8);
-    --backgroundColor: #F3F0CF;
+  --slideFont: 'BebasNeueRegular''Arial Narrow', Arial, sans-serif;
+  --slideTextColor: rgba(169, 3, 41, 0.8);
+  --backgroundColor: #f8f6e4;
+  --primaryColor: #62ecc1;
+  --deepColor: #222589;
+  --headBackgroundColor: rgb(26, 26, 60, 0.1);
+}
+
+
+@font-face {
+  font-family: "app-main";
+  src: url(/assets/font/comic.ttf);
 }
