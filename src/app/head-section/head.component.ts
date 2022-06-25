@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadComponent implements OnInit {
 
-  EtriviaLogo = "/assets/Images/"
+  EtriviaLogo = "/assets/images/"
 
   constructor() { }
 

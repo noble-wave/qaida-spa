@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentSectionComponent implements OnInit {
 
-  contentImage = "/assets/Images/";
+  contentImage = "/assets/images/";
 
   constructor() { }
 
