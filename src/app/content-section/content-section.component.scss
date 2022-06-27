@@ -1,13 +1,9 @@
 .content {
   background-color: var(--backgroundColor);
-
 }
 
-.content h1 {
-  font-weight: 700;
-  font-size: 2.3rem;
+.content .mat-h1 {
   padding: 0px 25px;
-  line-height: initial;
   color: var(--deepColor);
 }
 

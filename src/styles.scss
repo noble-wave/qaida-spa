@@ -1,4 +1,5 @@
 @use "styles/spaces";
+@use "styles/material";
 
 body {
   margin: 0;
@@ -16,7 +17,9 @@ body {
   --primaryColor: #62ecc1;
   --deepColor: #222589;
   --headBackgroundColor: rgb(26, 26, 60, 0.1);
+  --footerColor: #202124;
   --s-gap: 16px;
+  --lightFontColor: white;
 }
 
 

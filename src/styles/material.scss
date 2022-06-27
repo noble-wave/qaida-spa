@@ -1,0 +1,47 @@
+.mat-typography,
+.mat-display-4,
+.mat-typography .mat-display-4,
+.mat-display-3,
+.mat-typography .mat-display-3,
+.mat-display-2,
+.mat-typography .mat-display-2,
+.mat-display-1,
+.mat-typography .mat-display-1,
+.mat-h1,
+.mat-h2,
+.mat-h3,
+.mat-h4,
+.mat-h5,
+.mat-h6,
+.mat-body,
+.mat-body-1,
+.mat-body-strong,
+.mat-title,
+.mat-small,
+.mat-caption {
+    font-family: app-main;
+    font-weight: normal;
+    line-height: normal;
+    font-size: initial;
+    font-weight: normal;
+}
+
+.mat-h1 {
+    display: block;
+    font-size: 2em;
+    padding-block-start: 0.67em;
+    padding-block-end: 0.67em;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    font-weight: bold;
+}
+
+.mat-h3 {
+    display: block;
+    font-size: 1.17em;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    font-weight: bold;
+}
