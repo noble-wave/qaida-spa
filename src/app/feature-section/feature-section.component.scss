@@ -1,41 +1,16 @@
-.head h1 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 2.3rem;
-  padding: 20px;
-  line-height: initial;
-  color: var(--deepColor);
-}
-
-
-.content {
-  background-image: url(/assets/images/15.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 80vh;
-}
-
-
-.icons-box mat-icon {
-  color: var(--deepColor);
-  font-size: 55px;
-  line-height: 0;
-}
-
-.icons-box p {
-  font-size: 1.30rem;
-  margin-left: 50px;
-  font-weight: 500;
-}
-
 .icon-box {
   font-size: 35px;
-  margin-bottom: var(--s-gap);
+  margin-top: var(--s-gap);
 
   mat-icon {
     font-size: 1.1em;
     width: fit-content;
     height: fit-content;
+  }
+}
+
+@media (max-width:640px) {
+  .icon-box {
+    font-size: 24px;
   }
 }

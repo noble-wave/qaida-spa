@@ -1,55 +1,12 @@
 <div class="container">
-  <div class="head">
+  <div fxLayout="row" fxLayoutAlign="center" class="m-16">
     <h1>Aim to begin Learning with Fun</h1>
   </div>
 
-  <div class="content" fxLayout="row wrap" fxLayoutAlign="space-around stretch">
-
-    <div class="icons-box" fxLayout="column" fxLayoutAlign="space-evenly start">
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn </span>
-      </div>
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn</span>
-      </div>
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn</span>
-      </div>
-
-    </div>
-
-    <div class="icons-box" fxLayout="column" fxLayoutAlign="space-evenly end">
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn </span>
-      </div>
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn </span>
-      </div>
-
-      <div>
-        <mat-icon>speaker_phone</mat-icon>
-        <span>Listen and learn </span>
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <div class="three-sections" fxLayout="row" fxLayout.lt-md="column">
+  <div fxLayout="row wrap" fxLayoutAlign="space-around stretch">
 
     <!-- Text Section -->
-    <div fxFlex="33">
+    <div fxFlex.gt-md="33" fxFlexOrder.lt-lg="1">
       <div fxLayout="column" fxFlexFill fxLayoutAlign="space-around center">
         <div class="icon-box">
           <mat-icon>speaker_phone</mat-icon>
@@ -69,12 +26,12 @@
     </div>
 
     <!-- Image section -->
-    <div fxFlex="34">
+    <div fxFlex.gt-md="34" fxFlexOrder.lt-lg="3">
       <img width="100%" src="assets/images/15.jpg" />
     </div>
 
     <!-- Text Section -->
-    <div fxFlex="33">
+    <div fxFlex.gt-md="33" fxFlexOrder.lt-lg="2">
       <div fxLayout="column" fxLayoutAlign="space-around center" fxFlexFill>
         <div class="icon-box">
           <mat-icon>speaker_phone</mat-icon>
