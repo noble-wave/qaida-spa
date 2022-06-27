@@ -14,6 +14,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FeatureSectionComponent } from './feature-section/feature-section.component';
 import { DescriptionSectionComponent } from './description-section/description-section.component';
 import { GoToWebsiteSectionComponent } from './go-to-website-section/go-to-website-section.component';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -31,9 +32,11 @@ import { GoToWebsiteSectionComponent } from './go-to-website-section/go-to-websi
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    CommonModule,
+
+    FlexLayoutModule,
     MatButtonModule,
     MatIconModule,
-    FlexLayoutModule,
     MatCardModule,
 
   ],
