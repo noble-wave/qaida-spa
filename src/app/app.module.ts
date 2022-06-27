@@ -15,6 +15,7 @@ import { FeatureSectionComponent } from './feature-section/feature-section.compo
 import { DescriptionSectionComponent } from './description-section/description-section.component';
 import { GoToWebsiteSectionComponent } from './go-to-website-section/go-to-website-section.component';
 import { CommonModule } from '@angular/common';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,11 +27,12 @@ import { CommonModule } from '@angular/common';
     ContentSectionComponent,
     FeatureSectionComponent,
     DescriptionSectionComponent,
-    GoToWebsiteSectionComponent
+    GoToWebsiteSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // AppRoutingModule,
     BrowserAnimationsModule,
     CommonModule,
 
