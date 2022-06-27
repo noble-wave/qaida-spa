@@ -29,6 +29,13 @@
   font-weight: 500;
 }
 
-// .icons-box div {
-//   padding: 80px
-// }
+.icon-box {
+  font-size: 35px;
+  margin-bottom: var(--s-gap);
+
+  mat-icon {
+    font-size: 1.1em;
+    width: fit-content;
+    height: fit-content;
+  }
+}
