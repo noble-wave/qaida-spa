@@ -1,8 +1,8 @@
-.content {
+.container {
   background-color: var(--backgroundColor);
 }
 
-.content .mat-h1 {
+.mat-h1 {
   padding: 0px 25px;
   color: var(--deepColor);
 }
@@ -13,7 +13,6 @@
 
 .heading-content p {
   text-align: justify;
-  padding: 15px;
   font-size: 20px;
   color: #999999;
   line-height: initial;
