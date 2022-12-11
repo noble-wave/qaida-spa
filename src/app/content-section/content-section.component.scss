@@ -19,6 +19,17 @@
 
 }
 
+@media (min-width:320px) {
+  .mat-h1 {
+    text-align: center;
+  }
+
+  .heading-content p {
+    padding: 0px 15px;
+  }
+
+}
+
 // .image-content img {
 //   width: 100%;
 // }

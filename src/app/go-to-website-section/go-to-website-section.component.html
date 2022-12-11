@@ -1,15 +1,14 @@
-<div class="pt-40 pb-40">
+<div ngClass="pt-40 pb-40" [ngClass.lt-md]="'pt-8 pb-8'">
 
   <div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="10px" class="m-16">
 
-    <div>
+    <div [ngStyle.lt-md]="'text-align: center'">
       <h2>Open App to make early learning easy with fun activity for your child</h2>
     </div>
 
     <div>
       <a mat-stroked-button color="primary" href="https://letters.etrivia.app/" target="_blank">Open App</a>
     </div>
-
   </div>
 
 </div>
